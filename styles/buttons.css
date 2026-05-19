@@ -70,7 +70,7 @@
   }
 }
 
-@media (width >= 80rem) {
+@media (width >= 80em) {
 
   .btn-sm {
       font-size: var(--fs-base);
