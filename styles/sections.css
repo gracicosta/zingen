@@ -1,0 +1,51 @@
+#smartphones-img {
+    margin-top: 5rem;
+    background: url(../assets/imagens/ilustration.svg) top/cover;
+}
+
+section {
+    & header {
+        & strong {
+            display: block;
+            font: var(--fw-md) var(--fs-sm)/100% var(--font-family);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+
+            color: var(--brand-color-primary);
+        }
+
+        & h2 {
+            margin-top: .5rem;
+        }
+    }
+
+    & p {
+        margin-top: .5rem;
+        color: var(--text-color-secondary);
+    }
+}
+
+@media (width >= 40em) { 
+    #smartphones-img {
+        display: none;
+    }
+}
+
+@media (width >= 40em) and (width < 80em) {
+
+    #about img {
+        width: 100%;
+    }
+
+    .tablet {
+        display: flex;
+    }
+
+    .tablet-info {
+        width: 90%;
+    }
+
+    .tablet-info p {
+        font-size: 12px;
+    }
+}

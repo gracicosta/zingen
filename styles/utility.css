@@ -21,10 +21,6 @@
     /* border: solid violet; */
 }
 
-.desktop-only {
-    display: none;
-}
-
 .even-columns {
     display: grid;
     gap: 1rem;
@@ -48,6 +44,12 @@
 
 .grid {
     display: grid;
+}
+
+@media (width < 40em) {
+    .desktop-only {
+        display: none;
+    }
 }
 
 @media (width >= 40em) {
