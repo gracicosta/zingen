@@ -18,7 +18,6 @@
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
-    /* border: solid violet; */
 }
 
 .even-columns {
@@ -55,6 +54,10 @@
 @media (width >= 40em) {
     .container {
         --max-width: 60rem;
+    }
+
+    .desktop-only-2 {
+        display: none;
     }
 }
 

@@ -21,7 +21,7 @@
     }
 }
 
-@media (width >= 40em) {
+@media (width >= 40rem) {
     #hero {
 
         background: url(../assets/imagens/bg-hero.svg) no-repeat bottom center/contain;
@@ -46,7 +46,7 @@
     }
 }
 
-@media (width >= 80em) {
+@media (width >= 80rem) {
 
     #hero {
 

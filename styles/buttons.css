@@ -55,7 +55,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
@@ -70,7 +70,7 @@
   }
 }
 
-@media (width >= 80em) {
+@media (width >= 80rem) {
 
   .btn-sm {
       font-size: var(--fs-base);
