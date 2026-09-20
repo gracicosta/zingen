@@ -6,7 +6,7 @@ Projeto desenvolvido com foco em **HTML semântico**, **CSS moderno** e **layout
  
 ## 🔗 Demonstração
  
-[Adicione aqui o link do GitHub Pages / Vercel / Netlify]
+https://gracicosta.github.io/zingen/
  
 ## ✨ Funcionalidades da página
  
